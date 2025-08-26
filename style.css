@@ -1,0 +1,90 @@
+body {
+    color: rgb(55, 124, 49);
+    background:lightpink;
+    margin: 0px;
+    font-family: "Mozilla Headline", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(78, 195, 82);
+    padding: 20px;
+    font-size: 32px;
+     font-family: "Mozilla Headline", sans-serif;
+    color: rgb(78,195, 82);
+}
+
+.chamada {
+    background: #ffd2e5;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.site {
+font-family: "Libertinus Serif", sans-serif;
+}
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color: rgb(78,195, 82);
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* espaço entre logo e texto */
+}
+
+.logo {
+    height: 90px; /* ajuste o tamanho conforme necessário */
+    width: auto;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* espaço entre logo e texto */
+}
+
+.logo {
+    height: 100px; 
+    width: auto;
+    border-radius: 80px;
+}
+.imagem {
+   height: 100px; 
+    width: auto;
+    border-radius: 80px;
+}

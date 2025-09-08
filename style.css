@@ -1,21 +1,21 @@
 body {
-    color: rgb(55, 124, 49);
-    background:lightpink;
+    color: #65764b);
+    background:#fffae9;
     margin: 0px;
     font-family: "Mozilla Headline", sans-serif;
     margin-bottom: 100px;
 }
 
 header {
-    border-bottom: solid 2px rgb(78, 195, 82);
+    border-bottom: solid 2px #65764b;
     padding: 20px;
     font-size: 32px;
      font-family: "Mozilla Headline", sans-serif;
-    color: rgb(78,195, 82);
+    color: #65764b;
 }
 
 .chamada {
-    background: #ffd2e5;
+    background: #ffeea7;
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -56,11 +56,11 @@ font-family: "Libertinus Serif", sans-serif;
 }
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid green;
+    border: 3px solid #65764b;
 }
 
 .categoria h2 {
-    color: rgb(78,195, 82);
+    color: #65764b;
 }
 .logo-container {
     display: flex;
